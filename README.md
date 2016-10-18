@@ -19,7 +19,7 @@ python phrases_to_mongo.py phrase-table.1 pl_en
 
 Phrase Table should be compatible with GIZA++ tool.
 
-5. Now everything is ready to filter a parallel corpus:
+5. Now everything is ready to filter a parallel corpus. REMENBER TO ADJUST PARAMETERS IN main.py
 
 python main.py Wikipedia.po-en.po Wikipedia.pl-en.en data/output
 where "Wikipedia.pl-en.pl" and "Wikipedia.pl-en.en" are files containing a parallel corpus and "data/output" is a directory where output files should be saved. Extensions of input files should indicate their languages: ".pl" for Polish, ".en" for English and so on.
